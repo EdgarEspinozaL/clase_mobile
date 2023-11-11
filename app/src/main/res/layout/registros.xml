@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="Bienvenido        Tienes acceso a esta informacion:"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginbtn"
+            android:layout_width="191dp"
+            android:layout_height="89dp"
+            android:layout_below="@+id/signin"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="349dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="115dp"
+            android:backgroundTint="#DA0323"
+            android:text="LOG OUT" />
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn3"
+        android:layout_width="151dp"
+        android:layout_height="99dp"
+        android:layout_below="@+id/signin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="355dp"
+        android:layout_toEndOf="@+id/loginbtn"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="INFORMACIÓN SOBRE LOS DERECHOS LEGALES" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Bienvenido        Tienes acceso a esta informacion:"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="172dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/signin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="379dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="CONSULTAR DENUNCIAS" />
+
+
+</RelativeLayout>
